@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import Plan from "../model/Plan";
 
 const MONGODB_URI = process.env.MONGODB_URI;
 if (!MONGODB_URI) throw new Error("Missing MONGODB_URI");
