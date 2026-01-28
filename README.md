@@ -1,19 +1,33 @@
-# AI Fitness Coach - Minimal Pages Router Scaffold
+# 🏋️ AI Fitness Coach
 
-This is a minimal Next.js (pages router) scaffold for the AI Fitness Coach app.
-It includes:
-- pages router structure (pages/, pages/api/)
-- Auth context (context/AuthContext.jsx)
-- Example API routes for AI generation and TTS calls (server-side)
-- Client utilities to export plan as PDF (utils/pdf.js)
-- Minimal components (Header, ChatUI)
+An AI-powered fitness coach that generates **personalized workout and diet plans** based on user goals, preferences, and constraints.  
+Includes **voice output**, **PDF export**, and a **responsive UI** built with Next.js.
 
-How to run:
-1. Copy `.env.example` to `.env.local` and fill keys.
-2. npm install
-3. npm run dev
+## ✨ Features
 
-Deploy to Vercel:
-- Set env vars in Vercel project settings.
-- Build command: `npm run build`
-- Output directory: (leave default)
+- 🤖 AI-generated personalized workout & diet plans
+- 🧠 Plans tailored by age, goal, fitness level, and time availability
+- 🔊 Text-to-Speech voice output for accessibility
+- 📄 Export fitness plans as downloadable PDF
+- ⚡ Real-time AI generation using OpenAI / Gemini API
+- 📱 Fully responsive UI (mobile + desktop)
+- 🌐 Built using Next.js Pages Router
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Next.js API Routes, Node.js
+- **AI:** OpenAI / Gemini API
+- **Utilities:** PDF generation, Text-to-Speech
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/ai-fitness-coach.git
+cd ai-fitness-coach
